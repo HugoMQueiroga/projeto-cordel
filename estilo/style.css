@@ -40,6 +40,7 @@ header > h1 {
 }
 header > p {
     padding-bottom: 50px;
+    
 }
 
 a {
@@ -68,15 +69,24 @@ font-size: 3.5vw;
 
 }
 
-section.imagem{
-    background-color: grey;
-    color: white;
+section.imagem {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(255, 255, 255, 0.295);
+    background-attachment: fixed;
+}
+
+section#imagem001 {
+    background-image: url('../Imagens/pexels-adrien-olichon-2931246\ \(1\).jpg');
+    background-position: left bottom;
 }
 
 section.imagem > p {
    display: inline-block;
    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(255, 255, 255, 0.747);
+   
     
 }
 footer {
