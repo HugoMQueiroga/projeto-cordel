@@ -70,7 +70,7 @@ font-size: 3.5vw;
 }
 
 section.imagem {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(10, 10, 10);
     color: rgb(0, 0, 0);
     background-size: cover;
     box-shadow: inset 6px 6px 13px 0px rgba(255, 255, 255, 0.295);
